@@ -148,7 +148,7 @@ def add_predictions(input_data):
   
   prediction = model.predict(input_array_scaled)
   
-  st.subheader("Cell cluster prediction")
+  
   st.write("The cell cluster is:")
   
   if prediction[0] == 0:
