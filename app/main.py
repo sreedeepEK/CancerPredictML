@@ -149,7 +149,7 @@ def add_predictions(input_data):
   prediction = model.predict(input_array_scaled)
   
   
-  st.write("The cell cluster is:")
+  st.write("The predicted cell cluster is:")
   
   if prediction[0] == 0:
     st.write("Benign", unsafe_allow_html=True)
